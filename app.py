@@ -12,8 +12,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 st.set_option('deprecation.showPyplotGlobalUse', False)
-import pickle
-from pandas.api.types import CategoricalDtype
 
 ## Describe our app
 st.title('Credit Scoring Web App')
